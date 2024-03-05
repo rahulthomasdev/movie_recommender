@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color:white;
+    height: 100vh;;
+}
+.__form{
+}
+.__form_container{
+    background-color: #262626 !important;
+    color: white;
+    height: fit-content;
+}
+.__result_card{
+    background-color: #27272a;
+    color: white;
+}
