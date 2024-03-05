@@ -1,7 +1,6 @@
 body{
     background-color: black;
     color:white;
-    height: 80vh;;
 }
 .__form{
 }
@@ -16,4 +15,7 @@ body{
 }
 .__git_btn{
     height: fit-content;
+}
+.__content_area{
+    min-height: 75vh;
 }
