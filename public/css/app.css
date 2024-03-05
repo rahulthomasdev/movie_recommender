@@ -14,3 +14,6 @@ body{
     background-color: #27272a;
     color: white;
 }
+.__git_btn{
+    height: fit-content;
+}

@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-<div class="px-5  d-flex row mx-0 h-100 w-100 justify-content-center">
+<div class="px-3  d-flex row mx-0 h-100 w-100 justify-content-center">
     <div class="container mx-auto card p-5 __form_container col-md-6">
         <h1 class="text-center">Movie/Book Recommender</h1>
         <p class="fs-5 text-center">Discover Your Next Favorite Movie or Book: Get Personalized Recommendations Now</p>
