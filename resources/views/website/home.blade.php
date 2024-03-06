@@ -55,7 +55,7 @@
         var formData = $('#sugForm').serialize();
         $.ajax({
             type: 'POST',
-            url: '/get_suggetions',
+            url: '/getSuggetions',
             data: formData,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')

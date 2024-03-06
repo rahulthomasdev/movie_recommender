@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('website.home');
 });
 
-Route::post('/get_suggetions', [GeminiController::class, 'getSuggestions']);
+Route::post('/getSuggetions', [GeminiController::class, 'getSuggestions']);
