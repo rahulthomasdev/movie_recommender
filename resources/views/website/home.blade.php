@@ -61,7 +61,6 @@
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
             success: function(response) {
-                $('#pro_bar').hide();
                 $('#sugForm').hide();
                 $('#resultArea').show();
                 $('#resultArea').html(response?.data?.map((item) => {
@@ -96,7 +95,6 @@
                 })
             },
             error: function(response) {
-                $('#pro_bar').hide();
                 $('.toast').toast('show');
             }
         });
@@ -104,7 +102,6 @@
 
 
     $(document).ready(function() {
-        $('#pro_bar').hide();
         $('#resultArea').hide();
         $('#sugForm').submit(function(e) {
             getSuggestions(e);
