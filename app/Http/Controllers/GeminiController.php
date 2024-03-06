@@ -34,7 +34,6 @@ class GeminiController extends Controller
                 '
 
             );
-
             return response()->json(['data' => json_decode($result->text())]);
         } else {
             return response(422)->json(['message' => 'Invalid data']);
