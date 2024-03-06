@@ -58,7 +58,8 @@
             url: '/getSuggetions',
             data: formData,
             headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                Accept: 'application/json'
             },
             success: function(response) {
                 $('#sugForm').hide();
