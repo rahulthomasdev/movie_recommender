@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black !important;
     color:white;
 }
 .__form{
@@ -18,4 +18,12 @@ body{
 }
 .__content_area{
     min-height: 75vh;
+}
+input, select{
+    background-color: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+input::placeholder{
+    color: white !important;
 }
