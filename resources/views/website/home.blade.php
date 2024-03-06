@@ -13,7 +13,7 @@
             <div class="mb-3">
                 <label for="recommenderType" class="form-label">Select a Recommender</label>
                 <select class="form-select" id="recommenderType" name="recommenderType" required>
-                    <option selected disabled>Select a recommender</option>
+                    <option selected disabled value="">Select a recommender</option>
                     <option value="movie">Movie Recommender</option>
                     <option value="book">Book Recommender</option>
                 </select>
@@ -39,6 +39,9 @@
     function getSuggestions(e) {
         e.preventDefault();
         $('#pro_bar').show();
+        if ($('#recommenderType').value === 'nil') {
+            alert('Select recommender');
+        }
         var formData = $('#sugForm').serialize();
         $.ajax({
             type: 'POST',
@@ -78,7 +81,7 @@
     $(document).ready(function() {
         $('#pro_bar').hide();
         $('#resultArea').hide();
-        $('#submitBtn').click(function(e) {
+        $('#submitBtn').submit(function(e) {
             getSuggestions(e);
         });
     });
