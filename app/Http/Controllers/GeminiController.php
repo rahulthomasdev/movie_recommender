@@ -28,7 +28,7 @@ class GeminiController extends Controller
                 Desired Response Structure is an Array of objects with recommendations.
                 
                 Response Example: 
-                [{"title" : "The Great Gatsby","description" : "A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties, exploring themes of decadence, idealism, and the American Dream."},{"title" : "To Kill a Mockingbird","description" : "A timeless novel by Harper Lee, addressing issues of racial injustice and moral growth through the perspective of a young girl in the American South."}]
+                [{"title" : "The Great Gatsby","description" : "A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties, exploring themes of decadence, idealism, and the American Dream.", "rating":4},{"title" : "To Kill a Mockingbird","description" : "A timeless novel by Harper Lee, addressing issues of racial injustice and moral growth through the perspective of a young girl in the American South.", "rating":4.5}]
                 DO NOT INCLUDE BACKTICKS IN THE RESPONSE
                 GENERATE UNIQUE SUGGESTIONS EVERY TIME
                 '

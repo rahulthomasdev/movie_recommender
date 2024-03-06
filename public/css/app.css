@@ -10,8 +10,9 @@ body{
     height: fit-content;
 }
 .__result_card{
-    background-color: #27272a;
+    background-color: #1f2937;
     color: white;
+    border: 1px solid white;
 }
 .__git_btn{
     height: fit-content;
@@ -26,4 +27,7 @@ input, select{
 }
 input::placeholder{
     color: white !important;
+}
+.rating-color{
+    color:#fbc634 !important;
 }
